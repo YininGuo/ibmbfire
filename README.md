@@ -1,12 +1,12 @@
 # ibmbfire
 
-`ibmbfire` is a Python package based on the iBMB 2007 fire model. It generates fire temperature–time curves from compartment geometry and other parameters, and provides built‑in visualisation.
+`ibmbfire` is a Python package based on the [iBMB 2007 fire model](https://www.sciencedirect.com/science/article/pii/S0379711206000993). It generates fire temperature–time curves from compartment geometry and other parameters, and provides built‑in visualisation.
 
 ## Key Features
 
 - Calculates key fire stages (t₁, t₂, t₃) and corresponding temperatures (T₁, T₂, T₃)
 - Supports both ventilation‑controlled and fuel‑controlled scenarios
-- Returns a piecewise temperature–time array
+- Returns a fully-developed temperature–time array
 - Includes a simple plotting function for one‑line chart generation
 
 ## Installation
