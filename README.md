@@ -30,8 +30,8 @@ from ibmbfire import compute_ibmb_curve, plot_ibmb_curve
 
 # Define compartment and fire parameters
 Lc, Wc, Hc = 5.0, 4.0, 2.5      # compartment length, width, height (m)
-Nw, Ww, hw    = 1, 1.5, 1.5    # number of openings, opening width & height (m)
-T0, tg, q     = 20, 600, 500   # ambient temperature (°C), growth time (s), fire load density (MJ/m²)
+Nw, Ww, hw = 1, 1.5, 1.5    # number of openings, opening width & height (m)
+T0, tg, q = 20, 600, 500   # ambient temperature (°C), growth time (s), fire load density (MJ/m²)
 b = 300.0                       # average thermal property (J/(m²·s⁰·⁵·K))
 
 # Compute the temperature–time curve
