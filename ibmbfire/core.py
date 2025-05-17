@@ -88,7 +88,7 @@ def compute_ibmb_curve(Lc, Wc, Hc, Nw, Ww, hw, T0, tg, q, b):
     T_sec3 = lambda x: (T3 - T2) * np.sqrt((x - t2xm)/(t3xm - t2xm)) + T2
     Tt3 = T_sec3(tf3)
 
-    # 合并
+    # List
     t = np.concatenate([tf1, tf2, tf3])
     T = np.concatenate([Tt1, Tt2, Tt3])
 
